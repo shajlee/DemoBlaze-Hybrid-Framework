@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T19:23:14 PDT" name="Demo Blaze Suite" finished-at="2023-05-30T19:24:11 PDT" duration-ms="57519">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T19:23:14 PDT" name="Demo Blaze Test" finished-at="2023-05-30T19:24:11 PDT" duration-ms="57519">
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_Landingage">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:14 PDT" name="launchUrl" finished-at="2023-05-30T19:23:17 PDT" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="pageTitleAndUrl()[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:17 PDT" name="pageTitleAndUrl" finished-at="2023-05-30T19:23:17 PDT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleAndUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:17 PDT" name="tearDown" finished-at="2023-05-30T19:23:18 PDT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:18 PDT" name="launchUrl" finished-at="2023-05-30T19:23:20 PDT" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="presenceOfProductStoreLink()[pri:2, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:20 PDT" name="presenceOfProductStoreLink" finished-at="2023-05-30T19:23:20 PDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfProductStoreLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_Landingage@644baf4a]" started-at="2023-05-30T19:23:20 PDT" name="tearDown" finished-at="2023-05-30T19:23:20 PDT" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoblaze.testcases.DemoBlaze_Landingage -->
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_LoginTest">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:21 PDT" name="launchUrl" finished-at="2023-05-30T19:23:22 PDT" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:22 PDT" name="loginWithValidCredentials" data-provider="demoBlazeExcelDataWithDataProvider" finished-at="2023-05-30T19:23:23 PDT" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shajlee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:23 PDT" name="tearDown" finished-at="2023-05-30T19:23:23 PDT" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:23 PDT" name="launchUrl" finished-at="2023-05-30T19:23:25 PDT" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:25 PDT" name="loginWithValidCredentials" data-provider="demoBlazeExcelDataWithDataProvider" finished-at="2023-05-30T19:23:26 PDT" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shajlee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:26 PDT" name="tearDown" finished-at="2023-05-30T19:23:26 PDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:26 PDT" name="launchUrl" finished-at="2023-05-30T19:23:28 PDT" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:28 PDT" name="loginWithValidCredentials" data-provider="demoBlazeExcelDataWithDataProvider" finished-at="2023-05-30T19:23:28 PDT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golam.chodhury@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shajlee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:28 PDT" name="tearDown" finished-at="2023-05-30T19:23:29 PDT" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:29 PDT" name="launchUrl" finished-at="2023-05-30T19:23:31 PDT" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:31 PDT" name="loginWithValidCredentials" data-provider="demoBlazeExcelDataWithDataProvider" finished-at="2023-05-30T19:23:31 PDT" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shajlee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:31 PDT" name="tearDown" finished-at="2023-05-30T19:23:32 PDT" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:32 PDT" name="launchUrl" finished-at="2023-05-30T19:23:34 PDT" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:34 PDT" name="loginWithValidCredentials" data-provider="demoBlazeExcelDataWithDataProvider" finished-at="2023-05-30T19:23:34 PDT" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shajlee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:34 PDT" name="tearDown" finished-at="2023-05-30T19:23:35 PDT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:35 PDT" name="launchUrl" finished-at="2023-05-30T19:23:36 PDT" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:36 PDT" name="loginWithInvalidCredentials" finished-at="2023-05-30T19:23:39 PDT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:39 PDT" name="tearDown" finished-at="2023-05-30T19:23:39 PDT" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:39 PDT" name="launchUrl" finished-at="2023-05-30T19:23:41 PDT" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithInValidUsernameValidPassword()[pri:3, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:41 PDT" name="loginWithInValidUsernameValidPassword" finished-at="2023-05-30T19:23:43 PDT" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:43 PDT" name="tearDown" finished-at="2023-05-30T19:23:44 PDT" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:44 PDT" name="launchUrl" finished-at="2023-05-30T19:23:46 PDT" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:4, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:46 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2023-05-30T19:23:48 PDT" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:48 PDT" name="tearDown" finished-at="2023-05-30T19:23:49 PDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:49 PDT" name="launchUrl" finished-at="2023-05-30T19:23:51 PDT" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginWithNoCredentials()[pri:5, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:51 PDT" name="loginWithNoCredentials" finished-at="2023-05-30T19:23:53 PDT" duration-ms="2209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_LoginTest@1349883]" started-at="2023-05-30T19:23:53 PDT" name="tearDown" finished-at="2023-05-30T19:23:54 PDT" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoblaze.testcases.DemoBlaze_LoginTest -->
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:03 PDT" name="launchUrl" finished-at="2023-05-30T19:24:05 PDT" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="phoneCategory()[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:05 PDT" name="phoneCategory" finished-at="2023-05-30T19:24:05 PDT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:05 PDT" name="tearDown" finished-at="2023-05-30T19:24:06 PDT" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:06 PDT" name="launchUrl" finished-at="2023-05-30T19:24:08 PDT" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="laptopCategory()[pri:2, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:08 PDT" name="laptopCategory" finished-at="2023-05-30T19:24:08 PDT" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:08 PDT" name="tearDown" finished-at="2023-05-30T19:24:09 PDT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:09 PDT" name="launchUrl" finished-at="2023-05-30T19:24:10 PDT" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="monitorCategory()[pri:3, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:10 PDT" name="monitorCategory" finished-at="2023-05-30T19:24:11 PDT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monitorCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest@d737b89]" started-at="2023-05-30T19:24:11 PDT" name="tearDown" finished-at="2023-05-30T19:24:11 PDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoblaze.testcases.DemoBlaze_CategoriesTest -->
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_SignUpTest">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:23:54 PDT" name="launchUrl" finished-at="2023-05-30T19:23:56 PDT" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="provideSignUpCredentials()[pri:1, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:23:56 PDT" name="provideSignUpCredentials" finished-at="2023-05-30T19:23:58 PDT" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideSignUpCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:23:58 PDT" name="tearDown" finished-at="2023-05-30T19:23:59 PDT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:23:59 PDT" name="launchUrl" finished-at="2023-05-30T19:24:00 PDT" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="signUpWithNoCredentials()[pri:2, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:24:00 PDT" name="signUpWithNoCredentials" finished-at="2023-05-30T19:24:03 PDT" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.demoblaze.testcases.DemoBlaze_SignUpTest@28261e8e]" started-at="2023-05-30T19:24:03 PDT" name="tearDown" finished-at="2023-05-30T19:24:03 PDT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoblaze.testcases.DemoBlaze_SignUpTest -->
+    </test> <!-- Demo Blaze Test -->
+  </suite> <!-- Demo Blaze Suite -->
+</testng-results>
